@@ -5,6 +5,7 @@ body {
 header {
 	background:  #b8ffc3;
 	padding: 20px 0;
+	justify-content: center;
 }
 
 .caixa {
@@ -35,7 +36,8 @@ nav a {
 nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
-} #fff70f
+}
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -43,11 +45,11 @@ nav a:hover {
 }
 
 .produtos li {
-	display: inline-block;
-	text-align: center; #fff70f
+	text-align: center;
+	width: 400px;
 	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
+	margin: 20%;
+	padding: 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
@@ -68,7 +70,7 @@ nav a:hover {
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
-}center
+}
 
 .produto-descricao {
 	font-size: 18px;
@@ -81,6 +83,7 @@ nav a:hover {
 }
 
 footer {
+	
 	text-align: center;
 	background-color: #ffd1d1;
 	padding: 40px 0;
