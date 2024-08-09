@@ -1,6 +1,3 @@
-#banner {
-	width:100%;
-}
 
 .principal{
 	background: #CCCCCC;
@@ -19,6 +16,10 @@ p {
 	text-align: center;
 }
 
+#missao {
+	font-size: 20px
+}
+
 em strong {
 	color: #FF0000;
 }
@@ -27,8 +28,8 @@ em strong {
 	font-style: italic
 }
 
-.beneficios {
-	background: #FFFFFF;
+.porque {
+	background: #ffffff;
 	padding: 20px;
 }
 
@@ -39,6 +40,6 @@ ul {
 	margin-right: 15%;
 }
 
-.imagembeneficios {
+.imagem-porque {
 	width: 50%;
 }
