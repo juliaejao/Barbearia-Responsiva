@@ -61,43 +61,44 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+    border-color: #C78C19;
 }
 
 .produtos li:active {
-	border-color: #088C19;	
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
+    border-color: #088C19;    
 }
 
 .produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .produto-descricao {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 .produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
-	justify-content: center;
-	text-align: center;
-	padding: 40px 0;
-	background-color: #ffd1d1;
+	background: linear-gradient(#ff4242,#6d94ff );
+    text-align: center;
+    background-color: #83ffc1;
+    padding: 5px 0;
+}
+
+footer img {
+    max-width: 300px;
+    height: 300px;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
 /* main {
@@ -158,8 +159,6 @@ td, th {
 	padding: 8px 15px;
 }
 
-
-/* css da página inicial */
 .banner {
 	width:100%;
 }
@@ -212,7 +211,7 @@ td, th {
 }
 
 .porque {
-	padding: 3em 0;
+	padding: 1em 0;
 	background: #ff4242;
 }
 
@@ -222,7 +221,8 @@ td, th {
 }
 
 .lista-porque {
-	width: 60%;
+	text-align: left;
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -236,7 +236,7 @@ td, th {
 }
 
 .itens:before {
-	content: "•";
+	content: "🟊";
 }
 
 .imagem-porque {
@@ -244,10 +244,18 @@ td, th {
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #ff8f8f;
+	padding-top: 10%;
 }
 
 .imagem-porque:hover {
 	opacity: 0.3;
+}
+
+.video {
+	width: 500px;
+	height: 500px;
+	margin: 2em auto;
+	padding-top: 15%;
 }
 
 
@@ -267,25 +275,35 @@ td, th {
 
  ul{
 	text-align: center;
- }
+ } 
 
  .lista-porque, .imagem-porque {
 	width: 100%;
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 480px) {
     .produtos {
         flex-direction: column;
         align-items: center;
 		text-align: center;
 		justify-content: center;
+		width: 500px;
     }
 
     .produtos li {
-        width: 90%; /* Ajusta a largura dos itens para caber em dispositivos menores */
-        max-width: 100%;
+        width: 500px;
         margin-bottom: 20px;
 		text-align: center;
 		justify-content: center;
     }
+}
+
+@media screen and (max-width:480px) {
+	form, .input-padrao{
+		width: 500px;
+		text-align: center; 
+		justify-content: center;
+		}
+
+	
 }
